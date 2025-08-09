@@ -1,7 +1,7 @@
 print("Hello , this is a tool which you can find voltage , current and resistance with the data you give")
 value = int(input("İf you want to find the voltage press -> '1' \n"
               "İf you want to find the current press -> '2' \n"
-              "İf you want to find the voltage press -> '3' \n"))
+              "İf you want to find the resistance press -> '3' \n"))
 if value == 1:
     #data = input("You are finding the voltage . Please enter your Current and Resistance: (please separate with a space) ")
     #current , resistance = data.split(); # split function splits the value . but after you enter current you shouldnt immediatly press enter
@@ -31,3 +31,4 @@ elif value == 3:
     print(f"Current {current} A")
     resistance = voltage / current
     print(f"Great, according to the Voltage {voltage} Volt and Current {current} Amper the Resistance is = {resistance} Ohm")
+
